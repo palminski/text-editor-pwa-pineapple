@@ -9,6 +9,7 @@ const initdb = async () =>
       }
       db.createObjectStore('jate', { keyPath: 'id', autoIncrement: true });
       console.log('jate database created');
+      
     },
   });
 
